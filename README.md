@@ -5,8 +5,14 @@ Current repository contains code with the experiments design and results for the
 
 # Dataset
 
-The dataset used in the current research is Russian discourse corpus _Ru-RSTreebank_, which consists of 333 texts. For the purposes of this research, only news articles were extracted from the corpus.
+The dataset used in the current research is Russian discourse corpus _Ru-RSTreebank_, which consists of 333 texts, annotated with rhethoric relations. For the purposes of this research, only news articles were extracted from the corpus.
 
 # Experiments 
 ## Experiment 1. Swapped Sentence Units 
+Changing the ordering of adjacent clauses in the sentence to detect incoherence. 
 
+## Experiment 2. Scrambled Sentence Detection
+Replacing a randomly chosen discourse unit by a randomly chosen discourse unit from another text.
+
+## Experiment 3. Relation Semantics Detection 
+Testing model's ability to differentiate 17 types of rhethoric relations.
